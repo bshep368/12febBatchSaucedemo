@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="HighpTest(failed)">
+    <parameter name="browserName" value="chrome"/>
+    <classes>
+      <class name="com.SauceDemo1.TestClasses.TC01LoginFunctionalityTestClass">
+        <methods>
+          <include name="setUP"/>
+          <include name="tearDown"/>
+          <include name="LoginPagetest"/>
+        </methods>
+      </class> <!-- com.SauceDemo1.TestClasses.TC01LoginFunctionalityTestClass -->
+    </classes>
+  </test> <!-- HighpTest(failed) -->
+  <test thread-count="5" name="HighpTest1(failed)">
+    <parameter name="browserName" value="Firefox"/>
+    <classes>
+      <class name="com.SauceDemo1.TestClasses.TC01LoginFunctionalityTestClass">
+        <methods>
+          <include name="setUP"/>
+          <include name="tearDown"/>
+          <include name="LoginPagetest"/>
+        </methods>
+      </class> <!-- com.SauceDemo1.TestClasses.TC01LoginFunctionalityTestClass -->
+    </classes>
+  </test> <!-- HighpTest1(failed) -->
+</suite> <!-- Failed suite [Suite] -->
